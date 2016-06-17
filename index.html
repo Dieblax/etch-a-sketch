@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="styles/jquery-ui.min.css">
+	<title>Etch le Sketch!</title>
+</head>
+<body>
+	<div id='main-body'>
+		<img id='logo' src='images/logo.png'/>
+		<div class='sketchpad'>
+			<table class='grid'>
+			</table>
+			<div id='l_circle'></div>
+			<button id='clear'>CLEAR</button>
+			<div id='r_circle'></div>
+		</div>
+		<button id='menu-btn'>
+			<div id='row1'></div>
+			<div id='row2'></div>
+			<div id='row3'></div>
+		</button>
+		<div id='icon'>
+			<table id='icontable'>
+				<tr><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td></tr>
+			</table>
+		</div>
+		<div id='menu'>
+			<h1>MENU</h1>
+			<a href='#' id='color-btn'>COLOR</a>
+			<div id='colors'>
+				<button id='btn1'><span id='black'>BLACK</span></button><br>
+				<button id='btn2'>
+					<span id='r'>R</span>
+					<span id='a'>A</span>
+					<span id='n'>N</span>
+					<span id='d'>D</span>
+					<span id='o'>O</span>
+					<span id='m'>M</span>
+				</button><br>
+				<button id='btn3'><span id='greyscale'>GREYSCALE</span></button><br>
+			</div>
+			<a href='#' id='pressure-btn'>PRESSURE</a>
+			<div id='pressure-slider'>
+			</div>
+			<a href='#' id='grid-btn'>GRID</a>
+			<div id='grid-sizes'>
+				<button id='btn4'><span id='black'>32 X 32</span></button><br>
+				<button id='btn5'>64 X 64</button><br>
+				<button id='btn6'><span id='greyscale'>96 X 96</span></button><br>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+	<script src='scripts/jquery-ui.min.js'></script>
+</body>
+</html>
